@@ -31,12 +31,12 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl lg:text-6xl font-bold text-brand-charcoal mb-6 leading-tight">
-                Премиальная мебель 
-                <span className="text-brand-gold"> на заказ</span>
+                Кухни, шкафы и мебель 
+                <span className="text-brand-gold">на заказ</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Создаем эксклюзивную мебель по индивидуальным проектам в Новосибирске. 
-                Качество, которое служит поколениями.
+                Изготавливаем кухонную мебель, шкафы-купе, мебель для ванных комнат и детских в Новосибирске. 
+                Индивидуальные проекты под ваши размеры и потребности.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-brand-brown hover:bg-brand-brown/90 text-white px-8 py-4">
@@ -74,7 +74,7 @@ const Index = () => {
                 <div className="relative overflow-hidden">
                   <img 
                     src="/img/280dcdbb-6167-431b-8df8-0f380abedfdd.jpg" 
-                    alt="Кухонная мебель"
+                    alt="Кухня на заказ"
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-brand-brown/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -84,8 +84,8 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Кухонная мебель</h3>
-                  <p className="text-gray-600">Индивидуальный проект кухни из массива дуба</p>
+                  <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Кухня премиум</h3>
+                  <p className="text-gray-600">Угловая кухня с островом из массива дуба и мраморной столешницей</p>
                 </div>
               </CardContent>
             </Card>
@@ -94,8 +94,8 @@ const Index = () => {
               <CardContent className="p-0">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/img/716c47dd-0ac4-4e7f-b288-8d6d2d44cd28.jpg" 
-                    alt="Мягкая мебель"
+                    src="/img/d9328296-7161-43ef-8a17-46975f9e9670.jpg" 
+                    alt="Шкаф-купе на заказ"
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-brand-brown/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -105,8 +105,8 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Мягкая мебель</h3>
-                  <p className="text-gray-600">Диван из натуральной кожи премиум класса</p>
+                  <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Шкаф-купе</h3>
+                  <p className="text-gray-600">Встроенный шкаф с раздвижными дверями и LED-подсветкой</p>
                 </div>
               </CardContent>
             </Card>
@@ -115,8 +115,8 @@ const Index = () => {
               <CardContent className="p-0">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/img/f8cba006-df35-4367-9067-a2323d0333c9.jpg" 
-                    alt="Столовая мебель"
+                    src="/img/7c89c037-1c5e-4250-a874-f90aa5b9c594.jpg" 
+                    alt="Мебель для ванной"
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-brand-brown/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -126,8 +126,8 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Столовая мебель</h3>
-                  <p className="text-gray-600">Обеденный стол и стулья из ценных пород дерева</p>
+                  <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Ванная комната</h3>
+                  <p className="text-gray-600">Тумба под раковину с мраморной столешницей и зеркальным шкафом</p>
                 </div>
               </CardContent>
             </Card>
@@ -139,43 +139,63 @@ const Index = () => {
       <section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-brand-charcoal mb-4">Наши услуги</h2>
+            <h2 className="text-4xl font-bold text-brand-charcoal mb-4">Специализируемся на</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Полный цикл производства — от дизайн-проекта до установки
+              Создаем функциональную и красивую мебель для разных помещений
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center p-6 group">
-              <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
-                <Icon name="Pencil" size={32} className="text-brand-gold" />
+            <Card className="p-6 text-center group hover:shadow-xl transition-all duration-300">
+              <div className="w-20 h-20 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
+                <Icon name="ChefHat" size={32} className="text-brand-gold" />
               </div>
-              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Дизайн-проект</h3>
-              <p className="text-gray-600">3D-визуализация и детальные чертежи</p>
-            </div>
+              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Кухни</h3>
+              <p className="text-gray-600 mb-4">Кухонные гарнитуры, острова, барные стойки</p>
+              <ul className="text-sm text-gray-500 space-y-1">
+                <li>• Фасады из МДФ/массива</li>
+                <li>• Встроенная техника</li>
+                <li>• Столешницы из камня</li>
+              </ul>
+            </Card>
 
-            <div className="text-center p-6 group">
-              <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
-                <Icon name="Hammer" size={32} className="text-brand-gold" />
+            <Card className="p-6 text-center group hover:shadow-xl transition-all duration-300">
+              <div className="w-20 h-20 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
+                <Icon name="Home" size={32} className="text-brand-gold" />
               </div>
-              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Производство</h3>
-              <p className="text-gray-600">Изготовление на современном оборудовании</p>
-            </div>
+              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Шкафы</h3>
+              <p className="text-gray-600 mb-4">Встроенные и корпусные шкафы-купе</p>
+              <ul className="text-sm text-gray-500 space-y-1">
+                <li>• Раздвижные системы</li>
+                <li>• Внутреннее наполнение</li>
+                <li>• Зеркальные фасады</li>
+              </ul>
+            </Card>
 
-            <div className="text-center p-6 group">
-              <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
-                <Icon name="Truck" size={32} className="text-brand-gold" />
+            <Card className="p-6 text-center group hover:shadow-xl transition-all duration-300">
+              <div className="w-20 h-20 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
+                <Icon name="Bath" size={32} className="text-brand-gold" />
               </div>
-              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Доставка</h3>
-              <p className="text-gray-600">Бережная транспортировка по Новосибирску</p>
-            </div>
+              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Ванные</h3>
+              <p className="text-gray-600 mb-4">Мебель для ванных комнат и санузлов</p>
+              <ul className="text-sm text-gray-500 space-y-1">
+                <li>• Влагостойкие материалы</li>
+                <li>• Тумбы с раковинами</li>
+                <li>• Зеркальные шкафчики</li>
+              </ul>
+            </Card>
 
-            <div className="text-center p-6 group">
-              <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
-                <Icon name="Settings" size={32} className="text-brand-gold" />
+            <Card className="p-6 text-center group hover:shadow-xl transition-all duration-300">
+              <div className="w-20 h-20 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-gold/20 transition-colors">
+                <Icon name="Bed" size={32} className="text-brand-gold" />
               </div>
-              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Установка</h3>
-              <p className="text-gray-600">Профессиональный монтаж и настройка</p>
-            </div>
+              <h3 className="text-xl font-semibold text-brand-charcoal mb-2">Комнаты</h3>
+              <p className="text-gray-600 mb-4">Детские, спальни, гостиные</p>
+              <ul className="text-sm text-gray-500 space-y-1">
+                <li>• Кровати и комоды</li>
+                <li>• Рабочие столы</li>
+                <li>• Стенки и стеллажи</li>
+              </ul>
+            </Card>
           </div>
         </div>
       </section>
@@ -238,8 +258,8 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic mb-4">
-                "Заказывали кухню по индивидуальному проекту. Качество превзошло все ожидания! 
-                Мебель идеально вписалась в интерьер."
+                "Заказывали угловую кухню с островом. Качество превзошло все ожидания! 
+                Использовали каждый сантиметр пространства максимально эффективно."
               </p>
               <div className="flex text-brand-gold">
                 {[...Array(5)].map((_, i) => (
@@ -259,8 +279,8 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic mb-4">
-                "Офисная мебель выполнена безупречно. Коллеги постоянно спрашивают, 
-                где мы заказывали такую красоту."
+                "Встроенный шкаф-купе в спальне превзошел ожидания. Вместительный, 
+                удобный, с продуманным внутренним наполнением."
               </p>
               <div className="flex text-brand-gold">
                 {[...Array(5)].map((_, i) => (
@@ -280,8 +300,8 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic mb-4">
-                "Рекомендую всем своим клиентам. Профессионализм, качество 
-                и соблюдение сроков на высшем уровне."
+                "Мебель для детской комнаты получилась функциональной и безопасной. 
+                Рекомендую всем родителям!"
               </p>
               <div className="flex text-brand-gold">
                 {[...Array(5)].map((_, i) => (
